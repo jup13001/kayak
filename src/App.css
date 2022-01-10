@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+* {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo > img {
+  margin: 19px 0 19px 16px;
+}

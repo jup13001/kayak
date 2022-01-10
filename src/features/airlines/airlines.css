@@ -1,0 +1,88 @@
+.airline-info {
+    margin-left: 18px;
+}
+.airline-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #192024;
+}
+.airline-name > span {
+    display: none;
+}
+
+.image-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+} 
+
+.container {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.link {
+    color: #5a6872;
+    text-decoration: none;
+}
+
+.airline-wrapper {
+    margin: 0 16px 16px 0;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 240px;
+    border-radius: 8px;
+    box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 
+    0 3px 6px 0 rgba(25, 32, 36, 0.16);
+    justify-content: center;
+    display: flex;
+    border: 1px solid #FFFFFF;
+    flex-direction: column;
+}
+
+p {
+    margin: 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+.airline-wrapper:hover {
+    border: 1px solid #363f45;
+}
+.airline-wrapper:hover .airline-name{
+    font-size: 14px;
+    max-width: fit-content;
+}
+.airline-wrapper:hover .airline-name > span{
+    display: initial;
+}
+.airline-wrapper:hover .additional-content {
+    display: initial;
+}
+.airline-wrapper:hover .content {
+    align-items: center;
+}
+
+.additional-content {
+    display: none;
+}
+
+.shimmer {
+    animation : shimmer 2s infinite;
+    background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+    background-size: 1000px 100%;
+  }
+  
+  @keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+      }
+      100% {
+        background-position: 1000px 0;
+      }
+  }
